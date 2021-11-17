@@ -31,7 +31,7 @@ fetch("../../data/data.json")
                 if(divCorner.classList.contains("color")){
                     divCorner.classList.remove("color");
                     divArrow.textContent="X";
-                    div.classList.re7("selected");
+                    div.classList.remove("selected");
                 }else{
                     divCorner.classList.add("color");
                     divArrow.textContent="✔";
@@ -83,13 +83,13 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+const btnContainer = document.getElementById("myBtnContainer");
+const btns = btnContainer.querySelectorAll(".btn");
+btns.forEach((b) => {
+    b.addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        filterSelection(b.id);
+      });
+});

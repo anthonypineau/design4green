@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="shortcut icon" href="./assets/favicon_16x16.png" type="image/x-icon" sizes="16x16"
-    <link rel="shortcut icon" href="./assets/favicon_32x32.png" type="image/x-icon" sizes="32x32"
+    <link rel="shortcut icon" href="./assets/favicon_16x16.png" type="image/x-icon" sizes="16x16">
+    <link rel="shortcut icon" href="./assets/favicon_32x32.png" type="image/x-icon" sizes="32x32">
     <link rel="shortcut icon" href="./assets/favicon_96x96.png" type="image/x-icon" sizes="96x96">
     <title>Design4Green</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Design4Green - Team 13</h1>
+    </div>
     <main class="main">
         <div class="clear">
             <div class="resize">
                 <div id="myBtnContainer">
-                    <button class="btn active" onclick="filterSelection('all')">Tout</button>
-                    <button class="btn" onclick="filterSelection('strategie')">Stratégie</button>
-                    <button class="btn" onclick="filterSelection('specifications')">Specifications</button>
-                    <button class="btn" onclick="filterSelection('ux')">UX/UI</button>
-                    <button class="btn" onclick="filterSelection('contenus')">Contenus</button>
-                    <button class="btn" onclick="filterSelection('front')">Front-end</button>
-                    <button class="btn" onclick="filterSelection('architecture')">Architecture</button>
-                    <button class="btn" onclick="filterSelection('back')">Back-end</button>
-                    <button class="btn" onclick="filterSelection('selected')"><img src="./assets/shopping-cart.png" alt="Panier"></button>
-                    <button class="right" onclick="basket()">Valider</button>
+                    <button class="btn active" id="all">Tout</button>
+                    <button class="btn" id="strategie">Stratégie</button>
+                    <button class="btn" id="specifications">Specifications</button>
+                    <button class="btn" id="ux">UX/UI</button>
+                    <button class="btn" id="contenus">Contenus</button>
+                    <button class="btn" id="front">Front-end</button>
+                    <button class="btn" id="architecture">Architecture</button>
+                    <button class="btn" id="back">Back-end</button>
+                    <button class="btn" id="selected"><img src="./assets/shopping-cart.png" alt="Panier"></button>
+                    <button class="right">Valider</button>
                 </div>
                 <div id="listeBP" class="container">
 
