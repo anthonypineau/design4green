@@ -154,7 +154,7 @@ main, div {
 }
 
 #selected:hover{
-    background-color: #FFF8E5;
+    background-color: #f8f6f0;
 }
 
 #selected.active{
@@ -173,5 +173,5 @@ main, div {
 }
 
 .right:hover{
-    background-color: #00A19D;
+    background-color: #f8f6f0;
 }
