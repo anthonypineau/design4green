@@ -1,141 +1,508 @@
 [
-    {
-        "name": "Le besoin métier est exprimé",
-        "category": "STRATÉGIE"
-    },
-    {
-        "name": "Les parties prenantes internes et externes sont sensibilisées au Numérique Responsable",
-        "category": "STRATÉGIE"
-    },
-    {
-        "name": "Les enjeux Numérique Responsable ont été communiqués à l'équipe dès l'origine",
-        "category": "SPÉCIFICATIONS"
-    },
-    {
-        "name": "Chaque entité de l'équipe Projet dispose des compétences Numérique Responsable",
-        "category": "SPÉCIFICATIONS"
-    },
-    {
-        "name": "La majorité des fonctionnalités ont une composante Numérique Responsable",
-        "category": "SPÉCIFICATIONS"
-    },
-    {
-        "name": "Des exigences d'engagement Numérique Responsable sont démandées aux prestataires externes dans le processus d'achat",
-        "category": "SPÉCIFICATIONS"
-    },
-    {
-        "name": "Les données et procédures spécifiées ont toutes une information de fin de vie",
-        "category": "SPÉCIFICATIONS"
-    },
-    {
-        "name": "Dans les méthodes d'idéation, l'ensemble des parties prenantes est pris en compte dans toute sa dimension (humaine)",
-        "category": "UX/UI"
-    },
-    {
-        "name": "La planète est prise en compte dans les méthodes d'idéation pour intégrer la dimension écologique",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Les plus-values extra-financières du numérique responsable sont valorisées dans le business model",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Les parties prenantes sont sensibilisées au Numérique Responsable",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Une stratégie de compatibilité avec les temrinaux et versions logicielles obsolètes est définie",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Dès la conception, le service répond aux normes d'accesssibilité en vigueur (au mininmum)",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Une sobriété visuelle est mise en place, pour limiter les ressources énergétiques et l'impact sur la dégradation matérielle des composants visuels, sonores et tactiles constitutifs de l'interface",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Les fonctionnalités sont utilisés par l'utilisateur",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Une politique de gestion/utilisation des médias afin de réduire leurs impacts est en place avec des critères de compression et de formats des médias",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Le nombre de polices de caractères (fonts) et les variantes de polices appelées (graisse, caractères utilisés dans le projet) sont limités",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Le service évite les Dark Patterns",
-        "category": "UX/UI"
-    },
-    {
-        "name": "Des règles en matière de respect de l'utilisateur sont mises en places",
-        "category": "UX/UI"
-    },{
-        "name": "Les balises de mise en forme de texte répondent au besoin de hiérarchisation des informations, et pas à des mises en valeur de présentation.",
-        "category": "CONTENUS"
-    }, 
-    {
-        "name": "Les images ont été compressées en amont dans un format adapté pour sa visualisation.",
-        "category": "CONTENUS"
-    }, 
-    {
-        "name": "L'information portée par la vidéo peut être remplacée par une alternative (infographie...).",
-        "category": "CONTENUS"
-    }, 
-    {
-        "name": "Les documents à télécharger sont compressés, optimisés et accessibles.",
-        "category": "CONTENUS"
-    }, 
-    {
-        "name": "Les fonctionnalités couvertes par des actions locales (côté client) sont privilégiées plutôt que les échanges API.",
-        "category": "FRONT-END"
-    }, 
-    {
-        "name": "La plage de rétro-comptabilité est définie.",
-        "category": "FRONT-END"
-    }, 
-    {
-        "name": "Les fonctionnalités du service ne vont pas au-delà des besoins utilisateurs.",
-        "category": "FRONT-END"
-    },
-    {
-        "name": "Une version épurée est disponible pour les impressions.",
-        "category": "FRONT-END"
-    },
-    {
-        "name": "Les objets de cartographie, animations, vidéos, sont présentés dans un mode statique.",
-        "category": "FRONT-END"
-    },
-    {
-        "name": "Les environnements autres que production (DEV, QA, ...) sont éteints ou décommissionnées en dehors des plages d'usage (la nuit, en dehors des périodes de tests).",
-        "category": "ARCHITECTURE"
-    },
-    {
-        "name": "Chaque composant déployé est qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont systématiquement exprimées.",
-        "category": "ARCHITECTURE"
-    },
-    {
-        "name": "L'ensemble des équipements techniques utilisés par le service sont identifiés.",
-        "category": "ARCHITECTURE"
-    },
-    {
-        "name": "Le nombre de requêtes est minisé (proscrire l'usage de boucle).",
-        "category": "BACK-END"
-    },
-    {
-        "name": "Les fonctionnalités sont documentées pour permettre leur réutilisation.",
-        "category": "BACK-END"
-    },
-    {
-        "name": "Les donénes échangées sont compressées / minifiées avant transmission.",
-        "category": "BACK-END"
-    },
-    {
-        "name": "La fonctionnalité envisagée est utile.",
-        "category": "BACK-END"
-    }
+  {
+    "name": "Le besoin métier est exprimé.",
+    "category": "strategie",
+    "incontournable": true
+  },
+  {
+    "name": "Les objectifs NR sont exposés clairement et partagés par toutes les parties prenantes, internes ou externes à l'organisation.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Les réunions sont limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitenet des déplacements physiques.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "La solution retenue est la plus respectueuse de l'environnement.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Nous avons les personnes avec les compétences techniques les plus pertinentes pour chaque élément du projet.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Le projet avec une démarche NR répond réellement aux besoins de mes clients.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Je peux recycler des briques logicielles ou du contenu existant.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "La durée de vie du projet est définie.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Chacune des phases du cycle de vie sont identfiées avec des actions spécifiques.",
+    "category": "strategie",
+    "incontournable": false
+  },
+  {
+    "name": "Les parties prenantes internes et externes sont sensibilisées au Numérique Responsable.",
+    "category": "strategie",
+    "incontournable": true
+  },
+  {
+    "name": "Les enjeux Numérique Responsable ont été communiqués à l'équipe dès l'origine.",
+    "category": "specifications",
+    "incontournable": true
+  },
+  {
+    "name": "Chaque entité de l'équipe Projet dispose des compétences Numérique Responsable.",
+    "category": "specifications",
+    "incontournable": true
+  },
+  {
+    "name": "La majorité des fonctionnalités ont une composante Numérique Responsable.",
+    "category": "specifications",
+    "incontournable": true
+  },
+  {
+    "name": "Les profils cibles sont définis.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Les aspects numérique responsable sont propagés et entretenus sur l'ensemble des profils utilisateurs.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Chaque fonctionnalité est évaluée par rapport aux usages.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "L'état des lieux des données d'entrée est mis à disposition afin d'être réutilisé dans d'autres projets.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "La sécurité est adaptée à la valeur de mes données.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Le service est conforme au RGPD.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Le produit cible à une durée de vie déterminée.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Les postes de travail font l'object d'une gestion de cycle de vie.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Dans les ressources techniques du projet les gestions de dépendances sont prises en compte, pour limiter l'obésité des solutions techniques employées.",
+    "category": "specifications",
+    "incontournable": false
+  },
+  {
+    "name": "Des exigences d'engagement Numérique Responsable sont démandées aux prestataires externes dans le processus d'achat.",
+    "category": "specifications",
+    "incontournable": true
+  },
+  {
+    "name": "Les données et procédures spécifiées ont toutes une information de fin de vie.",
+    "category": "specifications",
+    "incontournable": true
+  },
+  {
+    "name": "Dans les méthodes d'idéation, l'ensemble des parties prenantes est pris en compte dans toute sa dimension (humaine).",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "La planète est prise en compte dans les méthodes d'idéation pour intégrer la dimension écologique.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Les plus-values extra-financières du numérique responsable sont valorisées dans le business model.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "La production des livrables (production documentaire comprise) est utilisée en amont du projet et est produite pour permettre d'être réutilisée dans les projets suivants.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Les parties prenantes sont sensibilisées au Numérique Responsable.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Une stratégie de compatibilité avec les terminaux et versions logicielles obsolètes est définie.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Le service fonctionne avec des connexions faibles.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Un planning d'archivage et une version allégée des contenus anciens consultables sont mis en oeuvre.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "L'expérience utilisateur prend en compte les évolutions possible du service (ajout/suppression de fonctionnalités).",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Les recherches les plus fréquentes ont été étuidées et adressées pour qu'elles soient ou mises en cache ou affichées à l'utilisateur sans envoi de requête ou clics inutiles.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Les vidéos et animations sont utilisées uniquement lorsqu'elles apportent une valeur pour l'utilisateur.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Les images sont optimisées par rapport à leurs fonctions.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "La dématérialisation du service est complète ou dans le cas où la production de documents papier est indispensable, elle est conçue pour limiter son impact au minimum.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Les mécanismes d'accès au service sont disponibles et sont adaptés à tout public.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Tout type d'utilisateur peut savoir facilement où il se trouve dans le service, par la mise en place d'un système de navigation inclusif.",
+    "category": "ux",
+    "incontournable": false
+  },
+  {
+    "name": "Dès la conception, le service répond aux normes d'accesssibilité en vigueur (au mininmum).",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Une sobriété visuelle est mise en place, pour limiter les ressources énergétiques et l'impact sur la dégradation matérielle des composants visuels, sonores et tactiles constitutifs de l'interface.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Les fonctionnalités sont utilisées par l'utilisateur.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Une politique de gestion/utilisation des médias afin de réduire leurs impacts est en place avec des critères de compression et de formats des médias.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Le nombre de polices de caractères (fonts) et les variantes de polices appelées (graisse, caractères utilisés dans le projet) sont limités.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Le service évite les Dark Patterns.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Des règles en matière de respect de l'utilisateur sont mises en places.",
+    "category": "ux",
+    "incontournable": true
+  },
+  {
+    "name": "Les balises de mise en forme de texte répondent au besoin de hiérarchisation des informations, et pas à des mises en valeur de présentation.",
+    "category": "contenus",
+    "incontournable": true
+  },
+  {
+    "name": "Les images ont été compressées en amont dans un format adapté pour sa visualisation.",
+    "category": "contenus",
+    "incontournable": true
+  },
+  {
+    "name": "L'information portée par la vidéo peut être remplacée par une alternative (infographie...).",
+    "category": "contenus",
+    "incontournable": true
+  },
+  {
+    "name": "Les documents à télécharger sont compressés, optimisés et accessibles.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les urls de destination sont bien valides.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Tous les liens et images-liens sont utiles.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les contenus sont uniques dans tout le service.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "On privilégie les polices système.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Le nombre de polices différentes est limité.",
+    "category": "contenus",
+    "incontournable": false
+
+  },
+  {
+    "name": "Une alternative aux images est systématiquement disponible.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Le son de la vidéo peut être restitué sous forme de texte.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "La durée des vidéos validées comme nécessaires est optimisée.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les contenus actifs sont déclenchés uniquement sur action de l'utilisateur.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "L'utilisation de Flash est supprimée, remplacée par un autre effet.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les notifications utilisateurs sont désactivables par l'utilisateur si elles ne sont pas nécessaires.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Certains types d'images (icons, picto...) remplacent du texte.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les formulaires sont utiles.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les prestataires retenus pour la production des contenus ont un engagement Numérique Responsable, Responsabilité Sociétale des Entreprises, accessibilité (formations, inclusion, éthique).",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "L'utilisateur peut personnaliser la fréquence et le périmètre des contenus diffusés.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "La validité des données est contrôlée avant la soumission du formulaire.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Chaque élément actif dispose d'un nom permettant de comprendre l'action qui sera réalisée par son utilisation.",
+    "category": "contenus",
+    "incontournable": false
+  },
+  {
+    "name": "Les fonctionnalités couvertes par des actions locales (côté client) sont privilégiées plutôt que les échanges API.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "La plage de rétro-comptabilité est définie.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "Les fonctionnalités du service ne vont pas au-delà des besoins utilisateurs.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "Une version épurée est disponible pour les impressions.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "La mise en forme en css est privilégiée, pour limiter l'usage des images.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "C'est une action utilisateur qui déclenche le 'play'.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "L'ensemble des équipements techniques utilisés par le service sont identifiés.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "Il n'y a pas de fichier en double.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "La navigation rapide est possible.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "Les flux échangés sont limités.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "Les utilisateurs sont informés des contraintes de volume et format de fichiers acceptés.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "Les fichiers échangés sont compressés.",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "Les objets de cartographie, animations, vidéos, sont présentés dans un mode statique.",
+    "category": "front",
+    "incontournable": true
+  },
+  {
+    "name": "Les redimensionnements d'images sont traités en amont et en statique (côté serveur).",
+    "category": "front",
+    "incontournable": false
+  },
+  {
+    "name": "Les environnements autres que production (DEV, QA, ...) sont éteints ou décommissionnées en dehors des plages d'usage (la nuit, en dehors des périodes de tests).",
+    "category": "architecture",
+    "incontournable": true
+  },
+  {
+    "name": "Chaque composant déployé est qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont systématiquement exprimées.",
+    "category": "architecture",
+    "incontournable": true
+  },
+  {
+    "name": "L'ensemble des équipements techniques utilisés par le service sont identifiés.",
+    "category": "architecture",
+    "incontournable": true
+  },
+  {
+    "name": "Les objectifs Numérique Responsable sont qualifiés pour chaque type de public dans le design d'architecture.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Les données ACV sont réutilisées dans le cas d'une adptation d'un service existant.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Chaque fonction du service est appréhendée en regard de son importance dans le service.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "La capacité d'évolution/modification de l'application est étudiée.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Mon protocole d'échange entre le contenu et le contenant est efficient.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Des mesures d'impact des services numériques ont été mises places sur le service.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "La traçabilité des exigences de sécurité est garantie.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "L'architecture est modulaire.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Pour chaque équipement les caractéristiques sont disponibles.",
+    "category": "architecture",
+    "incontournable": false
+  },
+  {
+    "name": "Le nombre de requêtes est minimisé (proscrire l'usage de boucle).",
+    "category": "back",
+    "incontournable": true
+  },
+  {
+    "name": "Les fonctionnalités sont documentées pour permettre leur réutilisation.",
+    "category": "back",
+    "incontournable": true
+  },
+  {
+    "name": "Les donénes échangées sont compressées / minifiées avant transmission.",
+    "category": "back",
+    "incontournable": true
+  },
+  {
+    "name": "L'API fournit des limites, des filtres et la liste des champs à retourner.",
+    "category": "back",
+    "incontournable": false
+  },
+  {
+    "name": "Les données sensibles des utilisateurs sont sécurisées.",
+    "category": "back",
+    "incontournable": false
+  },
+  {
+    "name": "Les données souvent accédées sont disponibles en RAM.",
+    "category": "back",
+    "incontournable": false
+  },
+  {
+    "name": "Les données ont une date d'expiration à laquelle elles sont supprimées.",
+    "category": "back",
+    "incontournable": false
+  },
+  {
+    "name": "La fonctionnalité envisagée est utile.",
+    "category": "back",
+    "incontournable": true
+  }
 ]
