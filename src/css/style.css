@@ -142,6 +142,7 @@ main, div {
 
 .btn:hover {
     background-color: #175874;
+    color: white;
 }
 
 .btn.active {
@@ -151,10 +152,12 @@ main, div {
 
 #selected{
     background-color: #175874;
+    color: white;
 }
 
 #selected:hover{
     background-color: #d5cfc4;
+    color: black;
 }
 
 #selected.active{
