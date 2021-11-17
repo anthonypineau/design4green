@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Le besoin métier est exprimé",
+        "category": "STRATÉGIE"
+    },
+    {
+        "name": "Les parties prenantes internes et externes sont sensibilisées au Numérique Responsable",
+        "category": "STRATÉGIE"
+    },
+    {
+        "name": "Les enjeux Numérique Responsable ont été communiqués à l'équipe dès l'origine",
+        "category": "SPÉCIFICATIONS"
+    },
+    {
+        "name": "Chaque entité de l'équipe Projet dispose des compétences Numérique Responsable",
+        "category": "SPÉCIFICATIONS"
+    },
+    {
+        "name": "La majorité des fonctionnalités ont une composante Numérique Responsable",
+        "category": "SPÉCIFICATIONS"
+    },
+    {
+        "name": "Des exigences d'engagement Numérique Responsable sont démandées aux prestataires externes dans le processus d'achat",
+        "category": "SPÉCIFICATIONS"
+    },
+    {
+        "name": "Les données et procédures spécifiées ont toutes une information de fin de vie",
+        "category": "SPÉCIFICATIONS"
+    },
+    {
+        "name": "Dans les méthodes d'idéation, l'ensemble des parties prenantes est pris en compte dans toute sa dimension (humaine)",
+        "category": "UX/UI"
+    },
+    {
+        "name": "La planète est prise en compte dans les méthodes d'idéation pour intégrer la dimension écologique",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Les plus-values extra-financières du numérique responsable sont valorisées dans le business model",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Les parties prenantes sont sensibilisées au Numérique Responsable",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Une stratégie de compatibilité avec les temrinaux et versions logicielles obsolètes est définie",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Dès la conception, le service répond aux normes d'accesssibilité en vigueur (au mininmum)",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Une sobriété visuelle est mise en place, pour limiter les ressources énergétiques et l'impact sur la dégradation matérielle des composants visuels, sonores et tactiles constitutifs de l'interface",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Les fonctionnalités sont utilisés par l'utilisateur",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Une politique de gestion/utilisation des médias afin de réduire leurs impacts est en place avec des critères de compression et de formats des médias",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Le nombre de polices de caractères (fonts) et les variantes de polices appelées (graisse, caractères utilisés dans le projet) sont limités",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Le service évite les Dark Patterns",
+        "category": "UX/UI"
+    },
+    {
+        "name": "Des règles en matière de respect de l'utilisateur sont mises en places",
+        "category": "UX/UI"
+    },{
+        "name": "Les balises de mise en forme de texte répondent au besoin de hiérarchisation des informations, et pas à des mises en valeur de présentation.",
+        "category": "CONTENUS"
+    }, 
+    {
+        "name": "Les images ont été compressées en amont dans un format adapté pour sa visualisation.",
+        "category": "CONTENUS"
+    }, 
+    {
+        "name": "L'information portée par la vidéo peut être remplacée par une alternative (infographie...).",
+        "category": "CONTENUS"
+    }, 
+    {
+        "name": "Les documents à télécharger sont compressés, optimisés et accessibles.",
+        "category": "CONTENUS"
+    }, 
+    {
+        "name": "Les fonctionnalités couvertes par des actions locales (côté client) sont privilégiées plutôt que les échanges API.",
+        "category": "FRONT-END"
+    }, 
+    {
+        "name": "La plage de rétro-comptabilité est définie.",
+        "category": "FRONT-END"
+    }, 
+    {
+        "name": "Les fonctionnalités du service ne vont pas au-delà des besoins utilisateurs.",
+        "category": "FRONT-END"
+    },
+    {
+        "name": "Une version épurée est disponible pour les impressions.",
+        "category": "FRONT-END"
+    },
+    {
+        "name": "Les objets de cartographie, animations, vidéos, sont présentés dans un mode statique.",
+        "category": "FRONT-END"
+    },
+    {
+        "name": "Les environnements autres que production (DEV, QA, ...) sont éteints ou décommissionnées en dehors des plages d'usage (la nuit, en dehors des périodes de tests).",
+        "category": "ARCHITECTURE"
+    },
+    {
+        "name": "Chaque composant déployé est qualifié du point de vue de sa durée de vie, et les procédures de déprovisonnement sont systématiquement exprimées.",
+        "category": "ARCHITECTURE"
+    },
+    {
+        "name": "L'ensemble des équipements techniques utilisés par le service sont identifiés.",
+        "category": "ARCHITECTURE"
+    },
+    {
+        "name": "Le nombre de requêtes est minisé (proscrire l'usage de boucle).",
+        "category": "BACK-END"
+    },
+    {
+        "name": "Les fonctionnalités sont documentées pour permettre leur réutilisation.",
+        "category": "BACK-END"
+    },
+    {
+        "name": "Les donénes échangées sont compressées / minifiées avant transmission.",
+        "category": "BACK-END"
+    },
+    {
+        "name": "La fonctionnalité envisagée est utile.",
+        "category": "BACK-END"
+    }
+]
