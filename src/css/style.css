@@ -20,7 +20,7 @@ main, div {
 .header {
     padding: 30px;
     text-align: center;
-    background: #274e13;
+    background: #39695D;
     color: white;
     font-size: 30px;
   }
@@ -145,7 +145,7 @@ main, div {
 }
 
 .btn.active {
-    background-color: #274e13;
+    background-color: #39695D;
     color: white;
 }
 
@@ -158,14 +158,14 @@ main, div {
 }
 
 #selected.active{
-    background-color: #274e13;
+    background-color: #39695D;
 }
 
 .right {
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: #191919;
+    background-color: #39695D;
     color: white;
     cursor: pointer;
     float: right;
@@ -173,5 +173,5 @@ main, div {
 }
 
 .right:hover{
-    background-color: #274e13;
+    background-color: #175874;
 }
