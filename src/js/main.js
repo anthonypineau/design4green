@@ -7,8 +7,7 @@ fetch("../../data/data.json")
         const div = document.createElement("div");
         div.classList.add("card");
         div.classList.add(d.category)
-        const p = document.createElement("p");
-        p.textContent=d.name;
+        div.textContent=d.name;
         const divCorner = document.createElement("div");
         divCorner.classList.add("corner");
 
@@ -17,8 +16,6 @@ fetch("../../data/data.json")
         divCheck.textContent="X";
 
         divCorner.appendChild(divCheck);
-
-        div.appendChild(p);
         div.appendChild(divCorner);
 
         if(d.incontournable){
