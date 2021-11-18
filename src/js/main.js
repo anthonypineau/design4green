@@ -50,6 +50,27 @@ document.querySelectorAll(".submit").forEach((i) => {
   i.addEventListener("click", () => {
     const divTable = document.querySelector(".table");
     divTable.innerHTML="";
+    const button = document.createElement("button");
+    button.textContent="Télécharger le fichier";
+    button.addEventListener("click", () => {
+      const csv = [];
+      const rows = document.querySelectorAll("table tr");
+      rows.forEach((r) => {
+        const row = [], cols = r.querySelectorAll("td, th");
+        cols.forEach((c) => {
+          row.push(c.innerText);
+        }); 
+        csv.push(row.join(";"));
+      });
+      const downloadLink = window.document.createElement('a');
+      const universalBOM = "\uFEFF";
+      downloadLink.setAttribute('href', 'data:text/csv; charset=utf-8,' + encodeURIComponent(universalBOM+csv.join("\n")));
+      downloadLink.setAttribute('download', 'gantt.csv');
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+    });
+    button.classList.add("button");
+    divTable.appendChild(button);
     const table = document.createElement("table");
     phases.forEach((p) => {
       const thead = document.createElement("thead");
