@@ -10,31 +10,33 @@ fetch("../../data/data.json")
         const p = document.createElement("p");
         p.textContent=d.name;
         const divCorner = document.createElement("div");
-        divCorner.classList.add("go-corner");
+        divCorner.classList.add("corner");
 
-        const divArrow = document.createElement("div");
-        divArrow.classList.add("go-arrow");
-        divArrow.textContent="X";//➞
+        const divCheck = document.createElement("div");
+        divCheck.classList.add("check");
+        divCheck.textContent="X";
 
-        divCorner.appendChild(divArrow);
+        divCorner.appendChild(divCheck);
 
         div.appendChild(p);
         div.appendChild(divCorner);
 
-        
         if(d.incontournable){
             divCorner.classList.add("color");
-            divArrow.textContent="✔";
+            divCheck.textContent="✔";
             div.classList.add("selected");
         }else{
             div.addEventListener("click", () => {
                 if(divCorner.classList.contains("color")){
                     divCorner.classList.remove("color");
-                    divArrow.textContent="X";
+                    divCheck.textContent="X";
                     div.classList.remove("selected");
+                    if(document.querySelector(".active").id=="selected"){
+                      filterSelection("selected");
+                    }
                 }else{
                     divCorner.classList.add("color");
-                    divArrow.textContent="✔";
+                    divCheck.textContent="✔";
                     div.classList.add("selected");
                 }
                 
@@ -46,50 +48,23 @@ fetch("../../data/data.json")
     filterSelection("all");
 });
 
-
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("card");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
+function filterSelection(filter) {
+  const cards = document.querySelectorAll(".card");
+  if (filter == "all") filter = "card";
+  cards.forEach((c) => {
+    c.classList.remove("show");
+    if (c.classList.contains(filter)){
+      c.classList.add("show");
     }
-  }
+  });
 }
 
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-const btnContainer = document.getElementById("myBtnContainer");
-const btns = btnContainer.querySelectorAll(".btn");
+const btns = document.querySelectorAll("#myBtnContainer .btn");
 btns.forEach((b) => {
     b.addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+        const current = document.querySelector(".active");
+        current.classList.remove("active");
+        this.classList.add("active");
         filterSelection(b.id);
       });
 });

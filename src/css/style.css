@@ -85,16 +85,16 @@ main, div {
     }
 }
 
-.card:hover .go-corner {
+.card:hover .corner {
     background-color: red;
 }
 
-.card .go-corner {
+.card .corner {
     opacity: 0.7;
     transition: all 0.3s ease-out;
 }
 
-.go-corner {
+.corner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@ main, div {
     border-radius: 0 4px 0 32px;
 }
 
-.go-arrow {
+.check {
     margin-top: -4px;
     margin-right: -4px;
     color: white;
