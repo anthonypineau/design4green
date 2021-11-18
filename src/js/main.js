@@ -114,9 +114,9 @@ document.querySelectorAll(".submit").forEach((i) => {
       table.appendChild(tbody);
     });
     divTable.appendChild(table);
-    const button = document.createElement("button");
-    button.textContent="Télécharger le fichier";
-    button.addEventListener("click", () => {
+    const button2 = document.createElement("button");
+    button2.textContent="Télécharger le fichier";
+    button2.addEventListener("click", () => {
       const csv = [];
       const rows = document.querySelectorAll("table tr");
       rows.forEach((r) => {
@@ -133,8 +133,8 @@ document.querySelectorAll(".submit").forEach((i) => {
       document.body.appendChild(downloadLink);
       downloadLink.click();
     });
-    button.classList.add("button");
-    divTable.appendChild(button);
+    button2.classList.add("button");
+    divTable.appendChild(button2);
   });
 });
 
