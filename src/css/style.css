@@ -52,10 +52,18 @@ main, div {
     margin-right: auto;
 }
 
-.card:hover {
+.contournable:hover {
     border: 1px solid #00A19D;
     z-index: 500;
     cursor: pointer;
+}
+
+.contournable {
+    border: 1px solid #f2f8f9;
+}
+
+.incontournable{
+    border: 1px solid red;
 }
 
 .card {
@@ -69,7 +77,6 @@ main, div {
     margin: 1%;
     text-decoration: none;
     overflow: hidden;
-    border: 1px solid #f2f8f9;
     transition: all 0.3s ease-out;
     font-size: 14px;
 }
@@ -131,17 +138,20 @@ main, div {
     background-color: #39695D;
 }
 
-.right {
+.right{
+    float: right;
+}
+
+.submit {
     border: none;
     outline: none;
     padding: 12px 16px;
     background-color: #39695D;
     color: white;
     cursor: pointer;
-    float: right;
     margin: 0 5px;
 }
 
-.right:hover{
+.submit:hover{
     background-color: #175874;
 }

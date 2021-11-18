@@ -24,7 +24,7 @@
     "category": "strategie",
     "incontournable": false,
     "keystep": "Cadrage projet",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Distance de la réunion",
     "indicatorY": "Total de réunions"
@@ -44,7 +44,7 @@
     "category": "strategie",
     "incontournable": false,
     "keystep": "Emergence",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Formés au NR",
     "indicatorY": "Membre équipe"
@@ -94,7 +94,7 @@
     "category": "strategie",
     "incontournable": true,
     "keystep": "Equipe projet",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Sensibilisations NR",
     "indicatorY": "Membre équipe"
@@ -104,7 +104,7 @@
     "category": "specifications",
     "incontournable": true,
     "keystep": "Equipe projet",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Enjeux NR communiqués",
     "indicatorY": "Membre équipe"
@@ -114,7 +114,7 @@
     "category": "specifications",
     "incontournable": true,
     "keystep": "Equipe projet",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Plan de formation NR = 100;Mise à dispo de ressources NR = 50;Non = 0",
     "indicatorY": "100"
@@ -284,7 +284,7 @@
     "category": "ux",
     "incontournable": true,
     "keystep": "Ressources Projet",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
     "indicatorX": "Sensibilisations NR",
     "indicatorY": "Membre équipe"
@@ -844,7 +844,7 @@
     "category": "architecture",
     "incontournable": false,
     "keystep": "Equipes",
-    "lifecycle": "",
+    "lifecycle": "Aucune phase",
     "indicator": "",
     "indicatorX": "",
     "indicatorY": ""
