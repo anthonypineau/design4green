@@ -106,11 +106,8 @@ main, div {
     right: 0;
     background-color: #E05D5D;
     border-radius: 0 4px 0 32px;
-}
-
-.check {
-    margin-top: -4px;
-    margin-right: -4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;

@@ -10,30 +10,25 @@ fetch("../../data/data.json")
         div.textContent=d.name;
         const divCorner = document.createElement("div");
         divCorner.classList.add("corner");
-
-        const divCheck = document.createElement("div");
-        divCheck.classList.add("check");
-        divCheck.textContent="X";
-
-        divCorner.appendChild(divCheck);
+        divCorner.textContent="X";
         div.appendChild(divCorner);
 
         if(d.incontournable){
             divCorner.classList.add("color");
-            divCheck.textContent="✔";
+            divCorner.textContent="✔";
             div.classList.add("selected");
         }else{
             div.addEventListener("click", () => {
                 if(divCorner.classList.contains("color")){
                     divCorner.classList.remove("color");
-                    divCheck.textContent="X";
+                    divCorner.textContent="X";
                     div.classList.remove("selected");
                     if(document.querySelector(".active").id=="selected"){
                       filterSelection("selected");
                     }
                 }else{
                     divCorner.classList.add("color");
-                    divCheck.textContent="✔";
+                    divCorner.textContent="✔";
                     div.classList.add("selected");
                 }
                 
