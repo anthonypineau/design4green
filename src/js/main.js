@@ -22,34 +22,7 @@ fetch("../../data/data.json")
               }
           });
       }
-        /*
-        const divCorner = document.createElement("div");
-        divCorner.classList.add("corner");
-        divCorner.textContent="X";
-        div.appendChild(divCorner);
-
-        if(d.incontournable){
-            divCorner.classList.add("color");
-            divCorner.textContent="✔";
-            div.classList.add("selected");
-        }else{
-            div.addEventListener("click", () => {
-                if(divCorner.classList.contains("color")){
-                    divCorner.classList.remove("color");
-                    divCorner.textContent="X";
-                    div.classList.remove("selected");
-                    if(document.querySelector(".active").id=="selected"){
-                      filterSelection("selected");
-                    }
-                }else{
-                    divCorner.classList.add("color");
-                    divCorner.textContent="✔";
-                    div.classList.add("selected");
-                }
-            });
-        }
-        */
-        listeBP.appendChild(div);
+      listeBP.appendChild(div);
     });
     filterSelection("all");
 });
