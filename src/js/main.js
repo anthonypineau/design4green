@@ -8,6 +8,21 @@ fetch("../../data/data.json")
         div.classList.add("card");
         div.classList.add(d.category)
         div.textContent=d.name;
+        if(d.incontournable){
+          div.classList.add("selected");
+      }else{
+          div.addEventListener("click", () => {
+              if(div.classList.contains("selected")){
+                  div.classList.remove("selected");
+                  if(document.querySelector(".active").id=="selected"){
+                    filterSelection("selected");
+                  }
+              }else{
+                  div.classList.add("selected");
+              }
+          });
+      }
+        /*
         const divCorner = document.createElement("div");
         divCorner.classList.add("corner");
         divCorner.textContent="X";
@@ -31,10 +46,9 @@ fetch("../../data/data.json")
                     divCorner.textContent="✔";
                     div.classList.add("selected");
                 }
-                
             });
         }
-
+        */
         listeBP.appendChild(div);
     });
     filterSelection("all");

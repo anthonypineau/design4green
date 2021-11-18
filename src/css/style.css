@@ -147,6 +147,10 @@ main, div {
     color: white;
 }
 
+.selected{
+    background-color: #00A19D;
+}
+
 #selected{
     background-color: #175874;
     color: white;
