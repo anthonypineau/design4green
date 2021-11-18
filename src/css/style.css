@@ -63,7 +63,7 @@ main, div {
 }
 
 .incontournable{
-    border: 1px solid red;
+    border: 3px solid red;
 }
 
 .card {
@@ -85,12 +85,16 @@ main, div {
     .card {
         width: 31%;
     }
+    .btn{
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 782px){
     .card {
         width: 48%;
     }
+    
 }
 
 .show {
@@ -120,18 +124,18 @@ main, div {
 }
 
 .selected{
-    background-color: #00A19D;
-    color: #FFF8E5;
+    background-color: #175874;
+    color: #fff;
 }
 
 #selected{
-    background-color: #175874;
+    background-color: #3a134e;
     color: white;
 }
 
 #selected:hover{
-    background-color: #d5cfc4;
-    color: black;
+    background-color: #175874;
+    
 }
 
 #selected.active{
@@ -154,4 +158,20 @@ main, div {
 
 .submit:hover{
     background-color: #175874;
+}
+
+th{
+    padding: 20px 20px;
+    text-align: left;
+    background-color: #39695D;
+    color: white;
+}
+
+td{
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.info{
+    text-align: center;
 }
