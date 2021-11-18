@@ -93,8 +93,14 @@ main, div {
 @media screen and (max-width: 782px){
     .card {
         width: 48%;
+        font-size: 11px;
     }
-    
+    .header h1{
+        font-size: 20px;
+    }
+    table{
+        font-size: 11px;
+    }
 }
 
 .show {
