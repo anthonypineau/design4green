@@ -93,84 +93,29 @@ document.querySelectorAll(".submit").forEach((i) => {
       table.appendChild(tbody);
     });
     divTable.appendChild(table);
+    const button = document.createElement("button");
+    button.textContent="Télécharger le fichier";
+    button.addEventListener("click", () => {
+      const csv = [];
+      const rows = document.querySelectorAll("table tr");
+      rows.forEach((r) => {
+        const row = [], cols = r.querySelectorAll("td, th");
+        cols.forEach((c) => {
+          row.push(c.innerText);
+        }); 
+        csv.push(row.join(";"));
+      });
+      const downloadLink = window.document.createElement('a');
+      const universalBOM = "\uFEFF";
+      downloadLink.setAttribute('href', 'data:text/csv; charset=utf-8,' + encodeURIComponent(universalBOM+csv.join("\n")));
+      downloadLink.setAttribute('download', 'gantt.csv');
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+    });
+    button.classList.add("button");
+    divTable.appendChild(button);
   });
 });
-
-/*
-    <script>  
-        //user-defined function to download CSV file  
-        function downloadCSV(csv, filename) {  
-            var csvFile;  
-            var downloadLink;  
-             
-            //define the file type to text/csv  
-            csvFile = new Blob([csv], {type: 'text/csv'});  
-            downloadLink = document.createElement("a");  
-            downloadLink.download = filename;  
-            downloadLink.href = window.URL.createObjectURL(csvFile);  
-            downloadLink.style.display = "none";  
-          
-            document.body.appendChild(downloadLink);  
-            downloadLink.click();  
-        }  
-          
-        //user-defined function to export the data to CSV file format  
-        function exportTableToCSV(filename) {  
-           //declare a JavaScript variable of array type  
-           var csv = [];  
-           var rows = document.querySelectorAll("table tr");  
-           
-           //merge the whole data in tabular form   
-           for(var i=0; i<rows.length; i++) {  
-            var row = [], cols = rows[i].querySelectorAll("td, th");  
-            for( var j=0; j<cols.length; j++)  
-               row.push(cols[j].innerText);  
-            csv.push(row.join(";"));  
-           }   
-           //call the function to download the CSV file  
-           downloadCSV(csv.join("\n"), filename);  
-        }  
-        </script>  
-          
-        <>  
-        
-        <table>  
-        <tr>  
-            <th> Name </th>  
-            <th> Profession </th>  
-            <th> Age </th>  
-            <th> Hobby </th>  
-        </tr>  
-        <tr>  
-            <td> Cristiano </td>  
-            <td> Hacker </td>  
-            <td> 24 </td>  
-            <td> Travelling, Sky-diving </td>  
-        </tr>  
-        <tr>  
-            <td> Jenifer </td>  
-            <td> Photographer </td>  
-            <td> 22 </td>  
-            <td> Cooking </td>  
-        </tr>  
-        <tr>  
-            <td> Simon </td>  
-            <td> Travelling-guide </td>  
-            <td> 35 </td>  
-            <td> Dancing, Gardening </td>  
-        </tr>  
-        <tr>  
-            <td> Cristiano Ronaldo </td>  
-            <td> Footballer </td>  
-            <td> 29 </td>  
-            <td> Singing </td>  
-        </tr>  
-        </table>  
-        <p><b> Click the Download CSV button to download the created data </b></p>  
-          
-        
-        <button onclick="exportTableToCSV('person.csv')"> Export HTML table to CSV File </button>   
-    */
 
 const btns = document.querySelectorAll("#myBtnContainer .btn");
 btns.forEach((b) => {

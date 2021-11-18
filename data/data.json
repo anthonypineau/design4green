@@ -6,7 +6,7 @@
     "keystep": "Cadrage projet",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Expression rédigée et validée = 100;Expression formalisée = 75;Tacite = 30;Non = 0",
+    "indicatorX": "Expression rédigée et validée = 100-Expression formalisée = 75-Tacite = 30-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -36,7 +36,7 @@
     "keystep": "Cadrage projet",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Oui = 100;Partiel = 50;Non = 0",
+    "indicatorX": "Oui = 100-Partiel = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -56,7 +56,7 @@
     "keystep": "Emergence",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Abordée = 100;Partielle = 50;Non traitée = 0",
+    "indicatorX": "Abordée = 100-Partielle = 50-Non traitée = 0",
     "indicatorY": "100"
   },
   {
@@ -86,7 +86,7 @@
     "keystep": "Cadrage projet",
     "lifecycle": "Revalorisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -116,7 +116,7 @@
     "keystep": "Equipe projet",
     "lifecycle": "Aucune phase",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Plan de formation NR = 100;Mise à dispo de ressources NR = 50;Non = 0",
+    "indicatorX": "Plan de formation NR = 100-Mise à dispo de ressources NR = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -176,7 +176,7 @@
     "keystep": "Environnement externe",
     "lifecycle": "Administration",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -186,7 +186,7 @@
     "keystep": "Environnement externe",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -196,7 +196,7 @@
     "keystep": "Gestion du cycle de vie",
     "lifecycle": "Fin de vie",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -206,7 +206,7 @@
     "keystep": "Déploiement",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -236,7 +236,7 @@
     "keystep": "Gestion du cycle de vie",
     "lifecycle": "Fin de vie",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -246,7 +246,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -256,7 +256,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -266,7 +266,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -296,7 +296,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -306,7 +306,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -326,7 +326,7 @@
     "keystep": "UI",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50; No = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50- No = 0",
     "indicatorY": "100"
   },
   {
@@ -366,7 +366,7 @@
     "keystep": "Usage",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -376,7 +376,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -386,7 +386,7 @@
     "keystep": "Usages",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -396,7 +396,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -406,7 +406,7 @@
     "keystep": "UI",
     "lifecycle": "Réalisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -436,7 +436,7 @@
     "keystep": "UI",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Moins de 3 polices = 100;3-5 polices = 50;Plus de 5 = 0",
+    "indicatorX": "Moins de 3 polices = 100-3-5 polices = 50-Plus de 5 = 0",
     "indicatorY": "100"
   },
   {
@@ -446,7 +446,7 @@
     "keystep": "Méthodologie",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -456,7 +456,7 @@
     "keystep": "Usage",
     "lifecycle": "Conception",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -646,7 +646,7 @@
     "keystep": "Contenus diffusés",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -686,7 +686,7 @@
     "keystep": "Expérience utilisateur",
     "lifecycle": "Réalisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -706,7 +706,7 @@
     "keystep": "UI",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -756,7 +756,7 @@
     "keystep": "Expérience utilisateur",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -766,7 +766,7 @@
     "keystep": "Flux",
     "lifecycle": "Réalisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -776,7 +776,7 @@
     "keystep": "Transferts",
     "lifecycle": "Utilisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -816,7 +816,7 @@
     "keystep": "Cycle de vie",
     "lifecycle": "Administration",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -826,7 +826,7 @@
     "keystep": "Cycle de vie",
     "lifecycle": "Fin de vie",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -836,7 +836,7 @@
     "keystep": "Design Logiciel",
     "lifecycle": "Acquisition",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -856,7 +856,7 @@
     "keystep": "Cycle de vie",
     "lifecycle": "Revalorisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Oui = 100;Partiel = 50;Non = 0",
+    "indicatorX": "Oui = 100-Partiel = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -876,7 +876,7 @@
     "keystep": "Cycle de vie",
     "lifecycle": "Maintenance",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -896,7 +896,7 @@
     "keystep": "Cycle de vie",
     "lifecycle": "Administration",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -906,7 +906,7 @@
     "keystep": "Design Logiciel",
     "lifecycle": "Réalisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -916,7 +916,7 @@
     "keystep": "Design Logiciel",
     "lifecycle": "Revalorisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -936,7 +936,7 @@
     "keystep": "Flux",
     "lifecycle": "Réalisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -946,7 +946,7 @@
     "keystep": "Qualité",
     "lifecycle": "Revalorisation",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
@@ -996,7 +996,7 @@
     "keystep": "Données",
     "lifecycle": "Fin de vie",
     "indicator": "(X/Y)*100",
-    "indicatorX": "Formalisés = 100;prévus = 75;Identifiés = 50;Non = 0",
+    "indicatorX": "Formalisés = 100-prévus = 75-Identifiés = 50-Non = 0",
     "indicatorY": "100"
   },
   {
