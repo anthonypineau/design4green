@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is for professionnal purposes to have a clearer view of a project">
+    <link rel="stylesheet" href="./src/css/style.css" media="print">
+    <link rel="stylesheet" href="./src/css/style.css" media="screen">
+    <link rel="shortcut icon" href="./assets/favicon_16x16.png" type="image/x-icon" sizes="16x16">
+    <link rel="shortcut icon" href="./assets/favicon_32x32.png" type="image/x-icon" sizes="32x32">
+    <link rel="shortcut icon" href="./assets/favicon_96x96.png" type="image/x-icon" sizes="96x96">
+
+    <link rel="stylesheet" href="./libs/leaflet/leaflet.css" />
+    <script src="./libs/leaflet/leaflet.js"></script>
+
+    <title>Design4Green</title>
+</head>
+<body>
+    <header>
+        <h1>Design4Green - Team 36</h1>
+    </header>
+    <main>
+        <div id="header">
+            <span id="filter">Filtres</span>
+
+            <label for="trainingType">Formation :</label>
+            <select id="trainingType">
+                <option value="null"></option>
+                <option value="continue">continue</option>
+                <option value="initiale">initiale</option>
+            </select>
+
+            <label for="organisation">Organisation :</label>
+            <select id="organisation">
+                <option value="null"></option>
+                <option value="MOOC">MOOC</option>
+                <option value="privee">privée</option>
+                <option value="publique">publique</option>
+            </select>
+
+            <label for="city">Ville :</label>
+            <select id="city">
+                <option value="null"></option>
+            </select>
+
+            <label for="access">Mode d'accès :</label>
+            <select id="access">
+                <option value="null"></option>
+                <option value="distanciel">Distanciel</option>
+                <option value="presentiel">Présentiel</option>
+                <option value="hybride">Hybride</option>
+            </select>
+
+            <button id="submit">Valider</button>
+        </div>
+        <div id="body">
+            <div id="list">
+               <div class="title">Liste des formations</div>
+               <div class="body"></div>
+            </div>
+            <div id="map">
+
+            </div>
+            <div id="cart">
+                <div class="title">Panier</div>
+                <button id="pdf">PDF</button>
+                <div class="body"></div>
+                <div class="quotation">
+                    <label for="name">Votre nom : </label>
+                    <input type="text" id="namePerson">
+                    <button id="mail">Faire une demande de devis</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
